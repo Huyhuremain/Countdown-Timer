@@ -1,1 +1,1 @@
-Countdown Timer là một ứng dụng dùng để đếm ngược thời gian cho đến sự kiện. Với các chức năng như năng cơ bản như điền sự kiện, chọn mốc thời gian, lưu và chỉnh sửa sự kiện. Khi thời gian kết thúc hệ thống sẽ thông báo lên trên màn hình
+Countdown Timer là một ứng dụng dùng để đếm ngược thời gian cho đến sự kiện. Với các chức năng như năng cơ bản như điền sự kiện, chọn mốc thời gian, lưu và chỉnh sửa sự kiện. Khi thời gian kết thúc hệ thống sẽ thông báo lên trên màn hình.
