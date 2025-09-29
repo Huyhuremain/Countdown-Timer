@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Sự kiện của bạn</h2> 
+
+    <div class="form-section">
+      <input type="text" id="eventName" placeholder="Tên sự kiện (ví dụ: Thi tốt nghiệp)">
+      <input type="datetime-local" id="eventDate">
+      <select id="notifyBefore">
+        <option value="">Thông báo khi đến hạn</option>
+        <option value="5">Trước 5 phút</option>
+        <option value="15">Trước 15 phút</option>
+        <option value="60">Trước 1 giờ</option>
+        <option value="1440">Trước 1 ngày</option>
+      </select>
+      <label><input type="checkbox" id="sound"> Âm thanh</label>
+      <label><input type="checkbox" id="priority"> Ưu tiên (đầu danh sách)</label>
+      <div class="buttons">
+        <button id="saveEvent">Lưu sự kiện</button>
+        <button id="cancelEdit">Hủy</button>
+      </div>
+    </div>
+
+    <div class="top-buttons">
+      <button id="clearAll">Xóa tất cả</button>
+      <button id="requestNotification">Yêu cầu thông báo</button>
+    </div>
+
+    <div id="events"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

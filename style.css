@@ -1,0 +1,29 @@
+/* style for saved box */
+#events { margin: 12px 0 18px 0; display: flex; flex-direction: column; gap: 10px; }
+
+/* empty box */
+.empty-box {
+  padding: 12px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  color: #666;
+  background: #fafafa;
+}
+
+/* each event card */
+.event-card {
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #e6e6e6;
+  background: #fff;
+  align-items:center;
+}
+.event-left { min-width:0; }
+.event-title { font-weight:600; margin-bottom:6px; }
+.event-when { color:#444; font-size:13px; margin-bottom:4px; }
+.event-info { font-size:13px; color:#444; margin-bottom:6px; }
+.event-actions { display:flex; gap:6px; }
+.btn-small { padding:6px 8px; border-radius:6px; border:1px solid #ccc; background:transparent; cursor:pointer; }
